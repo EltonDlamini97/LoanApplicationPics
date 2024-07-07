@@ -29,5 +29,5 @@ os.chdir(repo_path)
 
 # Run Git commands to push the changes
 subprocess.run(['git', 'add', updated_dataset_path])
-subprocess.run(['git', 'commit', '-m', 'Add ProjectFinalResult with image URLs'])
+subprocess.run(['git', 'commit', '-m', 'LoanApplicationPics'])
 subprocess.run(['git', 'push', 'origin', 'main'])

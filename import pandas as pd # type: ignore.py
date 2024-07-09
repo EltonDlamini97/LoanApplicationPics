@@ -6,8 +6,7 @@ dataset_path = 'Images/ProjectFinalResult.csv'
 df = pd.read_csv(dataset_path, delimiter=';')
 
 # Define the base URL
-base_url = 'https://raw.githubusercontent.com/EltonDlamini97/LoanApplicationPics/main/'
-
+base_url = 'http://localhost:8000/'
 # Generate the URLs
 df['Image_URL'] = df['Images'].apply(lambda x: base_url + os.path.basename(x))
 

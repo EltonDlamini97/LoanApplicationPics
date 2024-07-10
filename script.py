@@ -12,7 +12,7 @@ df = pd.read_csv(dataset_path, delimiter=';')
 print("Columns in the dataset:", df.columns)
 
 # Define the base URL for GitHub Pages
-base_url = 'https://EltonDlamini97.github.io/LoanApplicationPics/Images/'
+base_url = 'https://studious-sniffle-qjq557r7956f46q7-8000.app.github.dev/Images/'
 
 # Check if 'Images' column exists before processing
 if 'Image' not in df.columns:
